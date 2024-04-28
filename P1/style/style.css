@@ -1,0 +1,152 @@
+@font-face {
+    font-family: new1;
+    src: url(../font/Far_Dinar_Two_Medium.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:rgba(28,28,28,255) !important;
+    font-family: new1;
+}
+.logo-image{
+    text-align: left;
+    margin-left: 2% ;
+    margin-top: 1%;
+}
+.portfolio{
+    color: rgba(246,203,141,255);
+    background-color: transparent;
+    border: 1px solid  rgba(246,203,141,255);
+    padding: 10px;
+    border-radius: 99px;
+    display: inline;
+    margin-left: 8%;
+    text-align: left;
+    position: relative;
+    top: -45px;
+    transition: 0.5s;
+}
+.portfolio:hover{
+    background-color: rgba(246,203,141,255) !important;
+    color: rgba(28,28,28,255) ;
+    cursor: pointer;
+}
+.abtn{
+    position: relative;
+    left: 75%;
+    top: -90px;
+    text-decoration: none;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgba(246, 202, 141, 0.534) !important;
+}
+.first-img{
+    width: 20px !important;
+}
+.text1{
+    position: relative;
+    bottom: 400px;
+    display: inline;
+    left: 67%;
+    font-size: 170%;
+}
+.rangi{
+    color: rgb(246, 202, 141);
+}
+.Contact{
+    display: inline;
+    position: relative;
+    right: -35%;
+    top: -300px !important;
+}
+.div2{
+    position: relative;
+    right: 60%;
+}
+.text2{
+    font-size: 170% ;
+    width: 25%;
+}
+.lorem1{
+    width: 35% ;
+    font-size: 100%;
+    color: rgb(146, 146, 146);
+}
+.thrd-img{
+    position: relative;
+    top: -150px;
+    margin-left: 10%;
+}
+.process{
+    width: 25%;
+    margin-right: 10%;
+    position: relative;
+    top: -600px;
+    float: right;
+}
+.process-title{
+    font-size: xx-large;
+}
+.car-img{
+    position: relative;
+    display: inline;
+    left: 55%;
+}
+.div3{
+    top: -450px;
+}
+/* .list{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+} */
+.my-projects{
+    display: inline;
+    position: relative;
+    margin-top: 100px;
+}
+.inputDiv{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(146, 146, 146);
+    float: right;
+    position: relative;
+    top: -200px;
+    right: 10%;
+    outline: none;
+}
+.scroll{
+    background-image: url(../image/up-arrow_12690010.png);
+    background-color: rgb(255, 208, 148) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: auto !important;
+    opacity: 0;
+    display: none;
+    transition: 0.5s !important;
+    
+}
+.scroll.show{
+    transition: 0.5s ;
+    display: inline;
+    cursor: pointer !important;
+    opacity: 1;
+}
+/* .scroll.not_show{
+    display: none;
+} */
+

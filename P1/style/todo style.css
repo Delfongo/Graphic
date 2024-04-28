@@ -1,0 +1,105 @@
+@font-face {
+    font-family: new1;
+    src: url(../font/Far_Dinar_Two_Medium.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #1c1c1c ;
+    font-family: new1;
+}
+.back{
+    color: rgba(246,203,141,255);
+    background-color: transparent;
+    border: 1px solid  rgba(246,203,141,255);
+    padding: 10px;
+    border-radius: 99px;
+    display: inline;
+    font-family: new1;
+    text-align: left;
+    transition: 0.5s;
+}
+.back:hover{
+    background-color: rgba(246,203,141,255) !important;
+    color: rgba(28,28,28,255) ;
+    cursor: pointer;
+}
+h2 {
+    color: #cccccc;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4e4e4e;
+    width: 200px;
+    border-radius: 20px;
+}
+input{
+    background-color: transparent;
+    color: #c9c9c9;
+    border: none;
+    outline: none;
+    font-family: new1;
+    font-size: 15px;
+}
+
+.list{
+    margin-right: 40%;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    display: inline-block;
+    background-color: #9c9c9c;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.tab:hover {
+    background-color: #7c7c7c;
+}
+.tab-content {
+    padding: 10px;
+    display: none;
+    color: rgb(189, 189, 189);
+}
+.active-tab {
+    background-color: rgb(255, 208, 148);
+    border-bottom: none;
+}
+.active-content {
+  display: block;
+  color: rgb(189, 189, 189);
+}
+.add{
+    border: none;
+    background-image: url(../image/icons8-plus-50.png);
+    background-color: rgb(255, 208, 148) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+}
+.add:hover{
+    cursor: pointer;
+}
+/* #new-task[type="text"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100px;
+}
+button {
+    padding: 5px 10px;
+    margin-top: 5px;
+} */
+.new{
+    
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+}

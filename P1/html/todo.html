@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../style/todo style.css">
+    
+</head>
+<body  >
+    <div>
+        <img src="../image/IMG_0572.PNG" class="img-portfo" style="width: 20%; float: right; margin-top: 90px; margin-right: 10%;">
+    </div>
+    <div>
+        <a href="index.html" >
+            <button class="back" >
+                بازگشت به صفحه اصلی
+            </button>
+        </a>
+        
+    </div>
+   <div dir="rtl" class="list" >
+    
+    <h1 style="color: #cccccc;" >جدول وظایف روزانه</h1>
+    <br>    
+    <div id="tabs">
+        <div class="tab" onclick="openDay('Saturday')">شنبه</div>
+        <div class="tab" onclick="openDay('Sunday')">یکشنبه</div>
+        <div class="tab" onclick="openDay('Monday')">دوشنبه</div>
+        <div class="tab" onclick="openDay('Tuesday')">سه‌شنبه</div>
+        <div class="tab" onclick="openDay('Wednesday')">چهارشنبه</div>
+        <div class="tab" onclick="openDay('Thursday')">پنجشنبه</div>
+        <div class="tab" onclick="openDay('Friday')">جمعه</div>
+      </div>
+
+      <div id="Saturday" class="tab-content">
+        <h2>شنبه</h2>
+        <ul id="Saturday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Saturday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Saturday')" class="add"></button>
+      </div>
+
+      <div id="Sunday" class="tab-content">
+        <h2>یکشنبه</h2>
+        <ul id="Sunday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Sunday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Sunday')" class="add"></button>
+      </div>
+      
+      <div id="Monday" class="tab-content">
+        <h2>دوشنبه</h2>
+        <ul id="Monday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Monday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Monday')" class="add"></button>
+      </div>
+      
+      <div id="Tuesday" class="tab-content">
+        <h2>سه‌شنبه</h2>
+        <ul id="Tuesday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Tuesday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Tuesday')" class="add"></button>
+      </div>
+      
+      <div id="Wednesday" class="tab-content">
+        <h2>چهارشنبه</h2>
+        <ul id="Wednesday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Wednesday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Wednesday')" class="add"></button>
+      </div>
+      
+      <div id="Thursday" class="tab-content">
+        <h2>پنجشنبه</h2>
+        <ul id="Thursday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Thursday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Thursday')" class="add"></button>
+      </div>
+      
+      <div id="Friday" class="tab-content">
+        <h2>جمعه</h2>
+        <ul id="Friday-tasks">
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+            <li> <input type="checkbox" name="" class="box"><input type="text" name="" id=""></li>
+        </ul>
+        <input type="text" id="Friday-new-task" placeholder="جدید" class="new" >
+        <br>
+        <button onclick="addTask('Friday')" class="add"></button>
+      </div>
+
+   </div>
+   <script src="../script/todo.js" ></script>
+</body>
+</html>
